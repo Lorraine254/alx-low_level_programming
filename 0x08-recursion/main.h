@@ -1,6 +1,7 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+#include <unistd.h>
 /**
  * File:main.h
  * Auth: Lorraine
@@ -11,4 +12,6 @@
 int _putchar(char c);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
+int _strlen_recursion(char *s);
+
 #endif
